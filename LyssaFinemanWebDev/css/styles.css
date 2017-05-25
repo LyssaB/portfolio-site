@@ -1,0 +1,64 @@
+body{
+	font-family: 'Abel', sans-serif;
+}
+
+h1{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.main{
+	padding-top: 2em;
+}
+
+/* Contact */
+.socialBtn img{
+	width: 1.875em;
+	height: 1.875em;
+	padding: 1.875em;
+}
+
+.contact-form {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*Work*/
+
+.workEx img{
+	width: 95%;
+	z-index: 2;
+}
+
+.workLinks {
+	display: none;
+	overflow: hidden;
+}
+
+.workLinks a h3, .workLinks a h4{
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: .3em 0;
+}
+
+.workLinks h3{
+	position: absolute;
+	top: 20%;
+	font-size: 2.2em;
+	text-align: center;
+	width: 75%;
+}
+
+.workLinks h4{
+	position: absolute;
+	top: 50%;
+	font-size: 1.6em;
+	text-align: center;
+	width: 35%;
+}
+
+/*Media Screen */
+
+.can-touch {
+	vertical-align: bottom;
+	color: ;
+}
