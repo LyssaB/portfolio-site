@@ -7,7 +7,22 @@ h1{
 }
 
 .main{
-	padding-top: 2em;
+	padding-top: 5em;
+
+}
+
+.honeypot {
+	display: none;
+}
+
+.container-fluid {
+	width: 100vw;
+}
+
+/* Home */
+
+#home {
+	height: 100vh;
 }
 
 /* Contact */
@@ -18,47 +33,54 @@ h1{
 }
 
 .contact-form {
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
+}
+
+#contact-submit {
+	width: 25%;
+	margin: 0 auto;
+}
+
+#contact-submit button{
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	background-color: #2b4570;
 }
 
 /*Work*/
 
+#work {
+	background-color: #9fa9be;
+	padding: 2em 0;
+}
+
+.workEx {
+	padding: 2em;
+}
+
 .workEx img{
-	width: 95%;
+	width: 100%;
 	z-index: 2;
 }
 
-.workLinks {
-	display: none;
-	overflow: hidden;
-}
-
-.workLinks a h3, .workLinks a h4{
+.workLinks a{
+	color: white;
+	font-size: 2em;
 	z-index: 1;
-	background-color: rgba(255, 255, 255, 0.9);
-	padding: .3em 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
 }
 
-.workLinks h3{
+.workLinks a h4{
+	top: 260px;
+	text-align: right;
+	right: 100px;
 	position: absolute;
-	top: 20%;
-	font-size: 2.2em;
-	text-align: center;
-	width: 75%;
 }
 
-.workLinks h4{
+.workLinks a h3{
+	top: 140px;
+	left: 50px;
 	position: absolute;
-	top: 50%;
-	font-size: 1.6em;
-	text-align: center;
-	width: 35%;
-}
-
-/*Media Screen */
-
-.can-touch {
-	vertical-align: bottom;
-	color: ;
 }
