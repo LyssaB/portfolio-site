@@ -6,9 +6,31 @@ h1{
 	font-family: 'Fjalla One', sans-serif;
 }
 
+.navbar-fixed-top {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 .main{
-	padding-top: 3em;
-	width: 90%;
+	padding-top: 2em;
+	width: 100vw;
+}
+
+.honeypot {
+	display: none;
+}
+
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/* Home */
+
+#home {
+	height: 100vh;
+	background: url("../img/coffee.jpg") left top;
+	background-size: cover;
 }
 
 /* Contact */
@@ -19,20 +41,34 @@ h1{
 }
 
 .contact-form {
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
 }
 
+#contact-submit {
+	width: 25%;
+	margin: 0 auto;
+}
+
+#contact-submit button{
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	background-color: #2b4570;
+}
 
 /*Work*/
 
 #work {
 	background-color: #9fa9be;
-	padding: .8em 0;
+	padding: 2em 0;
+}
+
+.workEx {
+	padding: 2em;
 }
 
 .workEx img{
-	width: 90%;
+	width: 100%;
 	z-index: 2;
 }
 
@@ -41,7 +77,6 @@ h1{
 	font-size: 2em;
 	z-index: 1;
 	background-color: rgba(255, 255, 255, 0.8);
-	position: absolute;
 	display: none;
 }
 
@@ -49,10 +84,11 @@ h1{
 	top: 260px;
 	text-align: right;
 	right: 100px;
-
+	position: absolute;
 }
 
 .workLinks a h3{
 	top: 140px;
 	left: 50px;
+	position: absolute;
 }
