@@ -1,35 +1,51 @@
 body{
-	font-family: 'Abel', sans-serif;
+	font-family: 'Lora', serif;
+	font-size: 1.5em;
 }
 
 h1{
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
 }
 
-.main{
-	padding-top: 5em;
-
-}
+/*.main{
+	width: 100vw;
+}*/
 
 .honeypot {
 	display: none;
 }
 
 .container-fluid {
-	width: 100vw;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*NavBar */
+
+.bg-faded {
+	background-color: #5f738e;
+	font-size: .8em;
 }
 
 /* Home */
 
 #home {
 	height: 100vh;
+	background: url("../img/coffee.jpg") left top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.home-info {
+	padding-top: 5em;
 }
 
 /* Contact */
 .socialBtn img{
-	width: 1.875em;
-	height: 1.875em;
-	padding: 1.875em;
+	width: 2em;
+	height: 2em;
 }
 
 .contact-form {
@@ -52,7 +68,7 @@ h1{
 
 #work {
 	background-color: #9fa9be;
-	padding: 2em 0;
+	
 }
 
 .workEx {
