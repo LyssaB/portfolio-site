@@ -7,9 +7,11 @@
 
     <title>Lyssa Fineman's Portfolio Site</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/0d2012784d.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Abel|Fjalla+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lora" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
 
@@ -21,46 +23,31 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar">
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="lyssaFineman navbar-brand">
-            <a href="#">Lyssa Fineman</a>
-          </div><!--end lyssaFineman-->
-        </div><!--end navbar-header-->
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#work">Work</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>     
-          </ul>
-        </div><!--end nav-->
-      </div><!--end nav container-->
-    </nav><!--end navbar-->
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+        </ul>
+      </div>
+    </nav>
     <div class="container-fluid main">
       <div class="container-fluid" id="home"><!--Intro-->
-        <div class="col-sm-12 col-md-6">
+        <div class="home-info col-md-7">
           <h1>Hi, I'm Lyssa Fineman</h1>
-          <p>I'm a web developer living in the Triangle in North Carolina. I specialize in front end development, and have experience with back end work as well.</p>
-        </div>
-        <div class="col-sm-12 col-md-6">
+          <p>I'm a web developer living in the NC Triangle. I specialize in front end development, and have experience with back end work as well.</p>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -70,79 +57,89 @@
           </ul>
         </div>
       </div><!--end Intro-->
-      <div class="container-fluid" id="work"><!--Work-->
-        <div class="col-xs-12 col-md-4 workEx">
+      <div class="container-fluid row" id="work"><!--Work-->
+        <div class="col-xs-12 col-md-6 workEx">
           <div class="workLinks">
             <a href="http://www.mddesigns.herokuapp.com"><h3>ECommerce Site</h3></a>
             <a href="http://github.com/LyssaB/storeproject"><h4>Code</h4></a>
           </div>
           <img src="../img/mddesigns.jpg">
         </div>
-        <div class="col-xs-12 col-md-4 workEx">
+        <div class="col-xs-12 col-md-6 workEx">
           <div class="workLinks">
             <a href="http://administrator-helen-85516.bitballoon.com/"><h3>Landing Page</h3></a>
             <a href="https://gist.github.com/LyssaB/c6b49b4a0ccfed35bbbba9564b5a8fd0"><h4>Code</h4></a>            
           </div>
           <img src="../img/TPPLandingPage.jpg">
         </div>
-        <div class="col-xs-12 col-md-4 workEx">
+        <div class="col-xs-12 col-md-6 workEx">
           <div class="workLinks">
             <a href="http://minister-badger-16517.bitballoon.com/"><h3>Text-Based Game</h3></a>
             <a href="https://gist.github.com/LyssaB/bd784d130652f115e4dc9fd7fafe09d3"><h4>Code</h4></a>
           </div>
           <img src="../img/JSGame.jpg">        
         </div>
+        <div class="col-xs-12 col-md-6 workEx">
+          <div class="workLinks">
+            <a href=""><h3>What's Next?</h3></a>
+            <a href=""><h4>Code</h4></a>
+          </div>
+          <img src="">        
+        </div>
       </div><!--end Work-->
       <div class="container-fluid" id="about"><!--About-->
       </div><!--end About-->
       <div class="container-fluid" id="contact"><!--Contact-->
-        <div>
-          <a class="socialBtn" href="http://www.facebook.com/lyssa.fineman"><img src="../img/Facebook.png"></a>
-          <a class="socialBtn" href="http://www.twitter.com/melissaddesigns"><img src="../img/Twitter.png"></a>
-          <a class="socialBtn" href="http://www.melissadawnmakes.wordpress.com"><img src="../img/Wordpress.png"></a>
-        </div>
-        <div class="col-md-6">
-          <p>Hi, I'm Lyssa Fineman, a web developer in Cary, North Carolina. 
-        </div>
-        <div class="col-md-6">
-          <p>
-            <span class="glyphicon glyphicon-inbox"></span>
+        <div class="row">
+          <div class="offset-md-3 col-md-6">
+            <a class="socialBtn" href="http://www.facebook.com/lyssa.fineman"><img src="../img/Facebook.png"></a>
+            <a class="socialBtn" href="http://www.twitter.com/melissaddesigns"><img src="../img/Twitter.png"></a>
+            <a class="socialBtn" href="http://www.melissadawnmakes.wordpress.com"><img src="../img/Wordpress.png"></a>
+          </div>
+          <div class="col-md-6">
+          Shoot me an email or give me a call! I'd love to talk to you more and find out if I'm a good fit.
+          </div>
+          <div class="col-md-6">
+            <p>
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
             melissadawn189@gmail.com
-          </p>
-          <p>
-            <span class="glyphicon glyphicon-phone"></span>
+            </p>
+            <p>
+              <i class="fa fa-phone" aria-hidden="true"></i>
             910.619.5160
-          </p>
-        </div>
-        <div class="contact-form">
-          <form action="https://formspree.io/melissadawn189@gmail.com" method="post" class="form-horizontal">
-            <div class="form-group col-sm-12 col-md-6">
-              <label for="name" id="name" type="text">Name</label>
-              <input class="form-control" id="name" required="required" placeholder="What's your name?" type="text"/>
-            </div>
-            <div class="form-group col-sm-12 col-md-6">
-              <label for="email">Email Address*</label>
-              <input type="email" name="_replyto" class="form-control" id="email" required="required" title="Which email would be best to contact you?" placeholder="Your Email Address"/>
-            </div>
-            <div class="form-group col-xs-12">
-              <label for="message-box">Your Message</label>
-              <textarea type="message-box" name="messagebox" placeholder="Talk to Me!" style="resize:none" cols="40" rows="5" class="form-group message-box form-control"></textarea>
-            </div>
-            <div class="honeypot">
-              <input type="text" name="_gotcha" />
-            </div>
-            <div id="contact-submit">
-              <button type="submit" value="send" class="btn">Talk to me!</button>
-            </div>
-          </form>
-          <p id="visible-comment">
-          </p>
+            </p>
+          </div>
+          <div class="contact-form col-sm-12">
+            <form action="https://formspree.io/melissadawn189@gmail.com" method="post" class="form-horizontal">
+              <div class="form-group col-sm-12 col-md-6">
+                <label for="name" id="name" type="text">Name</label>
+                <input class="form-control" id="name" required="required" placeholder="What's your name?" type="text"/>
+              </div>
+              <div class="form-group col-sm-12 col-md-6">
+                <label for="email">Email Address*</label>
+                <input type="email" name="_replyto" class="form-control" id="email" required="required" title="Which email would be best to contact you?" placeholder="Your Email Address"/>
+              </div>
+              <div class="form-group col-xs-12">
+                <label for="message-box">Your Message</label>
+                <textarea type="message-box" name="messagebox" placeholder="Talk to Me!" style="resize:none" cols="40" rows="5" class="form-group message-box form-control"></textarea>
+              </div>
+              <div class="honeypot">
+                <input type="text" name="_gotcha" />
+              </div>
+              <div id="contact-submit">
+                <button type="submit" value="send" class="btn">Talk to me!</button>
+              </div>
+            </form>
+            <p id="visible-comment">
+            </p>
+          </div>
         </div>
       </div><!--end Contact-->
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <!-- Bootstrap core JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
   </body>
 </html>
