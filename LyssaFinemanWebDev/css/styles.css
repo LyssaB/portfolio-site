@@ -1,24 +1,27 @@
 body{
 	font-family: 'Lora', serif;
-	font-size: 1.5em;
+	font-size: 20px;
+}
+
+h1, h2, h3{
+	font-family: 'Lobster', cursive;
+	color: #5f738e;
 }
 
 h1{
-	font-family: 'Lobster', cursive;
-	font-size: 2em;
+	font-size: 4.236em;
 }
 
-/*.main{
-	width: 100vw;
-}*/
+h2 {
+	font-size: 2.618em;
+}
+
+p {
+	font-size: .8em;
+}
 
 .honeypot {
 	display: none;
-}
-
-.container-fluid {
-	padding-right: 0;
-	padding-left: 0;
 }
 
 /*NavBar */
@@ -39,17 +42,26 @@ h1{
 }
 
 .home-info {
-	padding-top: 5em;
+	padding-top: 2.1em;
+}
+
+.home-info h1 {
+	color: white;
 }
 
 /* Contact */
+
+.socialBtn {
+	margin: 2em auto;
+}
+
 .socialBtn img{
 	width: 2em;
 	height: 2em;
 }
 
 .contact-form {
-	margin: 0 auto;
+	margin: 2 auto;
 }
 
 #contact-submit {
@@ -61,42 +73,37 @@ h1{
 	color: #fff;
 	text-align: center;
 	width: 100%;
-	background-color: #2b4570;
+	background-color: ##5f738e;
 }
 
 /*Work*/
 
-#work {
-	background-color: #9fa9be;
-	
-}
-
 .workEx {
-	padding: 2em;
+	padding: 2em 1em;
 }
 
 .workEx img{
-	width: 100%;
-	z-index: 2;
+	width: 60%;
 }
 
-.workLinks a{
-	color: white;
-	font-size: 2em;
-	z-index: 1;
-	background-color: rgba(255, 255, 255, 0.8);
-	display: none;
+.workEx p {
+	padding-top: 1.5em;
 }
 
-.workLinks a h4{
-	top: 260px;
+.workLinks {
+	float: right;
+	padding-top: 2em;
 	text-align: right;
-	right: 100px;
-	position: absolute;
 }
 
-.workLinks a h3{
-	top: 140px;
-	left: 50px;
-	position: absolute;
+i {
+	color: #5f738e;
+}
+
+
+/*About*/
+
+#about {
+	background-color: #e8eff7 ;
+	padding: 2em 0;
 }
