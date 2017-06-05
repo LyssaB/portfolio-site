@@ -43,11 +43,13 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid main">
+    <!--<div class="container-fluid">-->
       <div class="container-fluid" id="home"><!--Intro-->
-        <div class="home-info col-md-7">
+        <div class="home-info">
           <h1>Hi, I'm Lyssa Fineman</h1>
-          <p>I'm a web developer living in the NC Triangle. I specialize in front end development, and have experience with back end work as well.</p>
+        </div>
+        <div class="home-info col-md-7">
+          <p>I'm a Ruby on Rails web developer living in the NC Triangle.</p>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -57,65 +59,57 @@
           </ul>
         </div>
       </div><!--end Intro-->
-      <div class="container-fluid row" id="work"><!--Work-->
-        <div class="col-xs-12 col-md-6 workEx">
-          <div class="workLinks">
-            <a href="http://www.mddesigns.herokuapp.com"><h3>ECommerce Site</h3></a>
-            <a href="http://github.com/LyssaB/storeproject"><h4>Code</h4></a>
+      <div class="container-fluid" id="work"><!--Work-->
+        <h1>Work</h1>
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="row work">
+            </div>
           </div>
-          <img src="../img/mddesigns.jpg">
-        </div>
-        <div class="col-xs-12 col-md-6 workEx">
-          <div class="workLinks">
-            <a href="http://administrator-helen-85516.bitballoon.com/"><h3>Landing Page</h3></a>
-            <a href="https://gist.github.com/LyssaB/c6b49b4a0ccfed35bbbba9564b5a8fd0"><h4>Code</h4></a>            
-          </div>
-          <img src="../img/TPPLandingPage.jpg">
-        </div>
-        <div class="col-xs-12 col-md-6 workEx">
-          <div class="workLinks">
-            <a href="http://minister-badger-16517.bitballoon.com/"><h3>Text-Based Game</h3></a>
-            <a href="https://gist.github.com/LyssaB/bd784d130652f115e4dc9fd7fafe09d3"><h4>Code</h4></a>
-          </div>
-          <img src="../img/JSGame.jpg">        
-        </div>
-        <div class="col-xs-12 col-md-6 workEx">
-          <div class="workLinks">
-            <a href=""><h3>What's Next?</h3></a>
-            <a href=""><h4>Code</h4></a>
-          </div>
-          <img src="">        
-        </div>
+        </div> 
       </div><!--end Work-->
       <div class="container-fluid" id="about"><!--About-->
+        <h1>About</h1>
+        <div class="col-md-8 offset-md-2">
+          <p>I am a <a href="https://melissadawnmakes.wordpress.com/">creator</a>, both on the web, and off. I have a love for detail and a meticulousness that lends itself well to web development. Paired with my extensive background in customer service, it's an excellent combination for an ego-less developer that works well in a group, and can communicate effectively with both team members, and clients.<br><br>
+          I went to school at East Carolina University for Costume Design for Theatre, and minored in Violin Performace. Since then, I've been working as a customer service associate, and creating bespoke jewelry in silver and bronze. My love for coding started when I began teaching myself to HTML and CSS to create a more personalized website for my jewelry. A few months later, I was hooked.<br><br>
+          I have recently graduated from <a href="https://careerfoundry.com/en/courses/become-a-web-developer">CareerFoundry's Web Development</a> course, and can't wait to dive even deeper into the world of programming!
+          </p>
+          <embed src="../img/LyssaFineman.pdf" width="800" height="375" type='application/pdf'>
+        </div>
       </div><!--end About-->
       <div class="container-fluid" id="contact"><!--Contact-->
+        <h1>Contact</h1>
         <div class="row">
           <div class="offset-md-3 col-md-6">
-            <a class="socialBtn" href="http://www.facebook.com/lyssa.fineman"><img src="../img/Facebook.png"></a>
-            <a class="socialBtn" href="http://www.twitter.com/melissaddesigns"><img src="../img/Twitter.png"></a>
-            <a class="socialBtn" href="http://www.melissadawnmakes.wordpress.com"><img src="../img/Wordpress.png"></a>
+            <div class="row">
+              <a class="socialBtn col-xs-4" href="http://www.facebook.com/lyssa.fineman"><img src="../img/Facebook.png"></a>
+              <a class="socialBtn col-xs-4" href="http://www.twitter.com/melissaddesigns"><img src="../img/Twitter.png"></a>
+              <a class="socialBtn col-xs-4" href="http://www.melissadawnmakes.wordpress.com"><img src="../img/Wordpress.png"></a>
+            </div><!--end row-->
+          </div><!--end row-->
+          <div class="contact-info row">
+            <div class="col-md-5 offset-md-2">
+              Shoot me an email or give me a call! I'd love to talk to you more and find out if I'm a good fit.
+            </div>
+            <div class="col-md-4 offset-md-1">
+              <p>
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <a href="mailto:fineman.lyssa@gmail.com">fineman.lyssa@gmail.com</a>
+              </p>
+              <p>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                910.619.5160
+              </p>
+            </div>
           </div>
-          <div class="col-md-6">
-          Shoot me an email or give me a call! I'd love to talk to you more and find out if I'm a good fit.
-          </div>
-          <div class="col-md-6">
-            <p>
-              <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            melissadawn189@gmail.com
-            </p>
-            <p>
-              <i class="fa fa-phone" aria-hidden="true"></i>
-            910.619.5160
-            </p>
-          </div>
-          <div class="contact-form col-sm-12">
+          <div class="contact-form col-sm-10 offset-sm-1">
             <form action="https://formspree.io/melissadawn189@gmail.com" method="post" class="form-horizontal">
-              <div class="form-group col-sm-12 col-md-6">
+              <div class="form-group">
                 <label for="name" id="name" type="text">Name</label>
                 <input class="form-control" id="name" required="required" placeholder="What's your name?" type="text"/>
               </div>
-              <div class="form-group col-sm-12 col-md-6">
+              <div class="form-group">
                 <label for="email">Email Address*</label>
                 <input type="email" name="_replyto" class="form-control" id="email" required="required" title="Which email would be best to contact you?" placeholder="Your Email Address"/>
               </div>
@@ -135,11 +129,12 @@
           </div>
         </div>
       </div><!--end Contact-->
-    </div>
+    <!--</div>-->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <!-- Bootstrap core JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <script src="js/work.js"></script>
+    <script src="../js/scripts.js"></script>
   </body>
 </html>
